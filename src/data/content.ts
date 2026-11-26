@@ -4,7 +4,7 @@ export const profile = {
   intro:
     'MERN full stack developer with hands-on internship experience at Digi Delight, where I worked on a real-time chatbot project using webhooks and WebSockets. Passionionate about building complete web applications and exploring Generative AI, RAG and Agentic AI.',
   about:
-    'I am a MERN full stack developer with internship experience at Digi Delight, where I worked on a real-time chatbot project using webhooks and WebSockets. I enjoy building end-to-end web applications across the MongoDB, Express, React and Node stack, and I am continuously learning new technologies. My current learning interests include Generative AI, RAG, AI Agents and Agentic AI.',
+    'I am a MERN Stack Developer with internship experience at Digi Delight, where I contributed to developing a real-time chatbot using webhooks and WebSockets. I enjoy building responsive web applications and working across both frontend and backend technologies. I have hands-on experience with React.js, JavaScript, Node.js, Express.js, and MongoDB. I am also exploring Generative AI and building my understanding of LLMs, RAG, and AI Agents as part of my continuous learning journey.',
   email: 'anaboinaKarthik5555@gmail.com',
   phone: '+91 7981978702',
   location: 'Hyderabad, Telangana, India',
@@ -76,66 +76,37 @@ export const technicalSkills: SkillGroup[] = [
   },
 ];
 
+
 export const aiSkills: SkillGroup[] = [
   {
-    title: 'Generative AI & LLMs',
+    title: 'AI Fundamentals',
     skills: [
       { name: 'Generative AI', level: L },
+      { name: 'Artificial Intelligence Basics', level: L },
       { name: 'Large Language Models (LLMs)', level: L },
-      { name: 'Prompt Engineering', level: L },
-      { name: 'OpenAI API', level: L },
-      { name: 'Google Gemini API', level: F },
-      { name: 'Anthropic Claude API', level: F },
+      { name: 'Prompt Engineering', level: F },
     ],
   },
   {
-    title: 'Agentic AI',
-    skills: [
-      { name: 'Agentic AI', level: L },
-      { name: 'AI Agents', level: L },
-      { name: 'Multi-Agent Systems', level: L },
-      { name: 'LangChain', level: L },
-      { name: 'LangGraph', level: L },
-      { name: 'CrewAI', level: F },
-      { name: 'Model Context Protocol (MCP)', level: L },
-      { name: 'AI Tool Calling', level: L },
-    ],
-  },
-  {
-    title: 'RAG & AI Knowledge Systems',
-    skills: [
-      { name: 'Retrieval-Augmented Generation (RAG)', level: L },
-      { name: 'Vector Databases', level: L },
-      { name: 'ChromaDB', level: L },
-      { name: 'Pinecone', level: F },
-      { name: 'Embeddings', level: L },
-      { name: 'Semantic Search', level: L },
-    ],
-  },
-  {
-    title: 'AI Developer Tools',
+    title: 'AI Tools',
     skills: [
       { name: 'ChatGPT', level: P },
-      { name: 'Claude', level: P },
-      { name: 'Cursor AI', level: P },
-      { name: 'GitHub Copilot', level: F },
-      { name: 'Hugging Face', level: F },
-      { name: 'Ollama', level: F },
-      { name: 'n8n AI Automation', level: L },
+      { name: 'Google Gemini', level: F },
+      { name: 'Claude AI', level: F },
+      { name: 'AI Productivity Tools', level: P },
     ],
   },
   {
-    title: 'AI Engineering',
+    title: 'AI Development (Learning)',
     skills: [
-      { name: 'Python', level: L },
-      { name: 'FastAPI', level: L },
-      { name: 'REST API Integration', level: P },
-      { name: 'Docker', level: F },
-      { name: 'AWS Basics', level: F },
-      { name: 'AI Evaluation and Testing', level: L },
+      { name: 'OpenAI API Basics', level: L },
+      { name: 'AI API Integration', level: L },
+      { name: 'Retrieval-Augmented Generation (RAG) Basics', level: L },
+      { name: 'AI Agents Fundamentals', level: L },
     ],
   },
 ];
+
 
 export interface Project {
   title: string;
